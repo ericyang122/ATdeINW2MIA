@@ -6,7 +6,7 @@ fetch(url)
 function mostraProdutos(produtos){
  const htmlProdutos = produtos.map(
  (produto) =>`
- <img src=${produto.imagem} width=420 height=420><br>
+ <img src=${produto.imagem} width=100% height=100%><br>
 `
  );
  document.getElementById('app').innerHTML = htmlProdutos;
